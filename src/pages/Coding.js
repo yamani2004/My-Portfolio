@@ -5,14 +5,15 @@ function Coding() {
   const [skillGroups, setSkillGroups] = useState({
     Languages: ["C", "C++", "SQL", "JavaScript"],
     Frontend: ["HTML", "CSS", "React"],
-    Tools: ["Git", "VS Code", "Node.js", "Firebase"],
-    "CS Core": ["Data Structures", "Algorithms"],
+    Tools: ["Git", "VS Code", "Node.js"],
+    "CS Core": ["Data Structures", "Algorithms","DBMS","Operating System","OOPS"],
   });
 
   const [profiles, setProfiles] = useState([
-    { name: "GitHub", link: "https://github.com/YOUR_USERNAME" },
-    { name: "LeetCode", link: "https://leetcode.com/YOUR_USERNAME" },
-    { name: "GeeksforGeeks", link: "https://auth.geeksforgeeks.org/user/YOUR_USERNAME" },
+    { name: "GitHub", link: "https://github.com/yamani2004" },
+    { name: "LeetCode", link: "https://leetcode.com/u/yamani4744/" },
+    { name: "GeeksforGeeks", link: "https://www.geeksforgeeks.org/user/yamanisogjv7/" },
+    { name: "CodeChef", link: "https://www.codechef.com/users/yamani47" }
   ]);
 
   const [editMode, setEditMode] = useState(false);

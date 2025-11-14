@@ -128,3 +128,16 @@
     .menu-toggle { display: flex; }
   }
   
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e5e7eb;
+    text-decoration: none;
+  }
+  
+  .logo .highlight {
+    color: #60a5fa; /* or any accent color */
+    margin-left: 2px;
+  }
+  

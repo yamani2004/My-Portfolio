@@ -52,7 +52,10 @@ function Navbar() {
 
       <div className="nav-container">
         <div className="logo">
-          <Link to="/">Yamani<span>.dev</span></Link>
+        <Link to="/" className="logo">
+  Yamani<span className="highlight">Dev</span><span className="highlight">Hub</span>
+</Link>
+
         </div>
 
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
