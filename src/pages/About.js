@@ -9,7 +9,7 @@ function About() {
 
         <p className="about-intro">
           Hi 👋, I'm <span className="highlight">Sohaib Yamani</span> — a 
-          passionate <strong>Frontend Developer</strong> and 
+          passionate <strong>Full Stack Developer</strong> and 
           <strong> B.Tech student at MNNIT Allahabad</strong>, driven by the 
           goal of building clean, efficient, and impactful digital experiences.
         </p>
@@ -89,7 +89,7 @@ function About() {
             <div className="info-box">
               <h3>🌟 Interests</h3>
               <p>
-                Web Development · UI/UX · DSA · Cloud  
+                Web Development · DSA · Cloud  
                 <br /> Open Source · Problem Solving
               </p>
             </div>
