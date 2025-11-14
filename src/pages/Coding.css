@@ -1,0 +1,205 @@
+.coding-section {
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    background: #0f1117;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coding-container {
+    max-width: 1100px;
+    width: 100%;
+  }
+  
+  .coding-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #60a5fa;
+  }
+  
+  .coding-intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #9ca3af;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .skill-group-card {
+    background: #1f2230;
+    padding: 1.5rem;
+    border-radius: 12px;
+    flex: 1 1 250px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-group-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .group-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #60a5fa;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+  
+  .skill-card {
+    background: #272935;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .remove-btn {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #f87171;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .add-skill input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    margin-right: 0.5rem;
+  }
+  
+  .add-skill button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Profiles */
+  .profiles-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-card {
+    background: #1f2230;
+    padding: 1.2rem 1.5rem;
+    border-radius: 12px;
+    flex: 1 1 250px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile-card a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .add-profile input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    margin-right: 0.5rem;
+  }
+  
+  .add-profile button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Update Button */
+  .update-profile {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .update-profile button {
+    padding: 0.8rem 1.8rem;
+    border-radius: 10px;
+    background: #60a5fa;
+    color: #0f1117;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .update-profile button:hover {
+    background: #2563eb;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  /* Dev login */
+  .dev-login {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .dev-login input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .dev-login button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .update-profile {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .update-profile button {
+    padding: 0.8rem 1.8rem;
+    border-radius: 10px;
+    background: #60a5fa;
+    color: #0f1117;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .update-profile button:hover {
+    background: #2563eb;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  
