@@ -20,8 +20,7 @@ function Projects() {
           "Mongoose",
           "JWT Authentication"
         ],
-        demo: "#", // Add live demo link
-        github: "#", // Add GitHub repo link
+        github: "https://github.com/yamani2004/jobfinder", // Add GitHub repo link
         highlight: true,
         editMode: false
       },
@@ -45,8 +44,7 @@ function Projects() {
           "React Router",
           "Multer"
         ],
-        demo: "#", // Add live demo link
-        github: "#", // Add GitHub repo link
+        github: "https://github.com/yamani2004/FileShare_APP", // Add GitHub repo link
         highlight: true,
         editMode: false
       },
@@ -66,8 +64,8 @@ function Projects() {
           "Axios",
           "React Router"
         ],
-        demo: "https://your-url-shortener-demo.com", // Replace with live demo link
-        github: "https://github.com/YOUR_USERNAME/url-shortener", // Replace with your GitHub link
+        // Replace with live demo link
+        github: "https://github.com/yamani2004/URL_SHORTENER", // Replace with your GitHub link
         highlight: true
       }
       
@@ -108,7 +106,6 @@ function Projects() {
         title: "New Project",
         desc: "Describe your project here",
         tech: ["Tech1", "Tech2"],
-        demo: "#",
         github: "#",
         highlight: false,
         editMode: true,
@@ -192,7 +189,7 @@ function Projects() {
                   {p.tech.map((t, idx) => <span key={idx} className="tech-item">{t}</span>)}
                 </div>
                 <div className="project-links">
-                  <a href={p.demo} target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+                  {/* <a href={p.demo} target="_blank" rel="noopener noreferrer">🔗 Live Demo</a> */}
                   <a href={p.github} target="_blank" rel="noopener noreferrer">💻 GitHub</a>
                 </div>
                 {devMode && (
